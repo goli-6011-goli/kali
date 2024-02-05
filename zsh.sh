@@ -1,27 +1,27 @@
-#apt update
+#sudo apt update
 
-#apt list --upgradable
+#sudo apt list --upgradable
 
-#apt upgrade -y
+#sudo apt upgrade -y
 
-#apt autoremove -y
+#sudo apt autoremove -y
 
 ############################
 
-apt install figlet -y
+sudo apt install figlet -y
 
-apt install lolcat -y
+sudo apt install lolcat -y
 
-apt install zsh -y
+sudo apt install zsh -y
 
-cp ./apt.up /usr/bin/apt.up
+sudo cp ./apt.up /usr/bin/apt.up
 
 ############################################################
 
-dpkg-reconfigure kali-grant-root
+sudo dpkg-reconfigure kali-grant-root
 
-chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh
 
-echo sudo su >> ../../.bashrc
+sudo echo sudo su >> ../../.bashrc
 
-cp ./.zshrc /root/.zshrc
+sudo cp ./.zshrc /root/.zshrc
