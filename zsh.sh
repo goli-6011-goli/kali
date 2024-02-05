@@ -1,10 +1,10 @@
-apt update
+#apt update
 
-apt list --upgradable
+#apt list --upgradable
 
-apt upgrade -y
+#apt upgrade -y
 
-apt autoremove -y
+#apt autoremove -y
 ############################
 apt install figlet -y
 
